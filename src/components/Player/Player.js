@@ -7,7 +7,6 @@ import Footer from './playerComponents/Footer/Footer'
 const Player = ({ spotify }) => {
   return (
     <div className='player'>
-        <h1>welcome to Spotify</h1>
         <div className='playerBody'>
           <Sidebar />
           <Body />
