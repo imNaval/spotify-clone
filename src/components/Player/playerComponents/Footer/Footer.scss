@@ -9,14 +9,80 @@
     padding: 20px;
 
     .footerLeft{
+        flex: 0.3;
+        color: white;
+        display: flex;
+        align-items: center;
+        width: 300px;
 
+        .albumLogo{
+            height: 60px;
+            width: 60px;
+            margin-right: 20px;
+            object-fit: contain;
+        }
+
+        .songInfo{
+            
+            h4{
+                margin-bottom: 7px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
     }
 
     .footerCenter{
+        flex: 0.4;
+        padding: 0 100px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 300px;
 
+        .footer_green {
+            color: #1ed15e;
+        }
+
+        .skip:hover,
+        .footer_green:hover{
+            transition: transform 250ms ease-in-out;
+            -webkit-transition: transform 250ms ease-in-out;
+            -moz-transition: transform 250ms ease-in-out;
+            -ms-transition: transform 250ms ease-in-out;
+            -o-transition: transform 250ms ease-in-out;
+            transform: scale(1.2) !important;
+            -webkit-transform: scale(1.2) !important;
+            -moz-transform: scale(1.2) !important;
+            -ms-transform: scale(1.2) !important;
+            -o-transform: scale(1.2) !important;
+}
+
+        .play:hover{
+            transition: transform 250ms ease-in-out;
+            transform: scale(1.4) !important;
+            -webkit-transform: scale(1.4) !important;
+            -moz-transform: scale(1.4) !important;
+            -ms-transform: scale(1.4) !important;
+            -o-transform: scale(1.4) !important;
+            -webkit-transition: transform 250ms ease-in-out;
+            -moz-transition: transform 250ms ease-in-out;
+            -ms-transition: transform 250ms ease-in-out;
+            -o-transition: transform 250ms ease-in-out;
+}
     }
 
     .footerRight{
-        
+        flex: 0.3;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        *.MuiSlider-root{
+            color: green;
+        }
     }
 }
