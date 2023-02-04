@@ -1,8 +1,22 @@
 .footer{
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
     height: 65px;
-    width: 100%;
+    width: 95%;
     background-color: #282828;
     padding: 20px;
+
+    .footerLeft{
+
+    }
+
+    .footerCenter{
+
+    }
+
+    .footerRight{
+        
+    }
 }
