@@ -25,7 +25,7 @@ const Footer = () => {
         <ShuffleIcon className='footer_green' />
         <SkipPreviousIcon className='skip' />
         <PlayCircleOutlineIcon className='play' fontSize='large' />
-        <SkipNextOutlined className='skip' />
+        <SkipNextIcon className='skip' />
         <RepeatIcon className='footer_green' />
       </div>
 

@@ -43,6 +43,15 @@ function App() {
           playlists: playlists,
         })
       })
+
+      //https://open.spotify.com/playlist/4yJzNIoNknZHcMRsvjAssJ
+      spotify.getPlaylist('4yJzNIoNknZHcMRsvjAssJ').then(response => {
+        dispatch({
+          type: 'SET_DISCOVER_WEEKLY',
+          discover_weekly: response,
+        })
+      });
+
     }
   }, []);
 
